@@ -18,6 +18,7 @@ Multiplication: simple multiplication test using scientific calculator app. Test
 
 Division: simple division test using scientific calculator app. Test divides a 1-digit number from a 3-digit number and shows a result of operation and closes the application.
 
+
 ValueOfPi: simple test using scientific calculator app which shows a value of π(pi).
 
 Steps are described in : android-scientific_calc-testng-test. It can be downloaded and easily modified. All steps are explained.
