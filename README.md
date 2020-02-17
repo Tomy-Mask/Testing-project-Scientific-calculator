@@ -52,6 +52,7 @@ System variables-PATH(examples):
 ### 2. Command Prompt - run daemon service
 
 In Windows open Command Prompt and type:
+
 	cd C:\Users\User\AppData\Local\Android\Sdk\platform-tools    
 	-->adb devices
 
@@ -64,10 +65,11 @@ In Windows open Command Prompt and type:
 
 ### 3. Run Android emulator from Android Studio
 
-	Tools(Configure) > AVD Manager > Run   (I installed Pixel 3-API 28)
-	(for first installation run Create Virtual Device and choose a device)
+Tools(Configure) > AVD Manager > Run   (I installed Pixel 3-API 28)
+(for first installation run Create Virtual Device and choose a device)
+	
+or you can run emulator from Command Prompt:
 
-	or you can run emulator from Command Prompt:
 
 	cd C:\Users\User\AppData\Local\Android\Sdk\emulator
 	--->emulator -avd -list-avds
@@ -110,19 +112,22 @@ Open another Command Prompt and write:
 
 ### 8. Download and install JDK(Java Development Kit)
 	
-	Download and install Java JDK(version 8 or newer) in Windows:
+Download and install Java JDK(version 8 or newer) in Windows:
+
 	https://www.guru99.com/install-java.html
 
 
 ### 9. Download and install Node.js
 
-	Download Node.js from: 
+Download Node.js from: 
+
 	https://nodejs.org/en/download/
 	
 
 ### 10. Download and install Appium Desktop
 	
-	Download Appium Desktop from:
+Download Appium Desktop from:
+
 	http://appium.io/
 
 	or
@@ -140,18 +145,19 @@ Open another Command Prompt and write:
 
 ### 12. Start server in Appium Desktop
 	
-	Open Appium Desktop and start server with default options:
+Open Appium Desktop and start server with default options:
+
 		Host: 0.0.0.0         Port: 4723
 		
 
 ### 13. Start new session in Appium Desktop
 
-	While the server is running open:
-	File > New Session Window
+While the server is running open:
+File > New Session Window
 
-	In textfield JSON Represantation write desired capabilities
+In textbox JSON Represantation write desired capabilities
 
-	e.g.
+e.g.
 		{
 			"app":"E:\Calculator\Scientific_Calculator.apk",
 			"VERSION":"9,0",
@@ -165,22 +171,23 @@ Open another Command Prompt and write:
 
 ### 14. Download and install IntelliJ IDEA
 
- 	Download IntelliJ IDEA from:
+ Download IntelliJ IDEA from:
+ 
  	https://www.jetbrains.com/idea/download/#section=windows
 
 
 ### 15. (additional)Add dependencies
 
- 	For creating a new project it's needed to be a Maven project with an Appium and TestNG depencencies.
- 	In pom.xml file copy a code for dependency from:
+ For creating a new project it's needed to be a Maven project with an Appium and TestNG depencencies.
+ In pom.xml file copy a code for dependency from:
 	
- 		Appium dependency:
+ 	Appium dependency:
  		https://mvnrepository.com/artifact/io.appium/java-client/7.3.0
 
- 		TestNG dependency:
+ 	TestNG dependency:
  		https://mvnrepository.com/artifact/org.testng/testng
 
- 	In IntelliJ IDEA take Enable Auto-Import for Maven projects to be imported.
+ In IntelliJ IDEA take Enable Auto-Import for Maven projects to be imported.
 
 
 
