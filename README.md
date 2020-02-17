@@ -147,7 +147,7 @@ Open Appium Desktop and start server with default options:
 While the server is running open:
 File > New Session Window
 
-In textbox JSON Represantation write desired capabilities
+In textbox JSON Representation write desired capabilities
 
 	e.g.
 		{
@@ -157,7 +157,7 @@ In textbox JSON Represantation write desired capabilities
 			"platformName": "Android"
 		}
 
-	Click a save sign in the right corner of the textfield and start a session.
+Click a save sign in the right corner of the textfield and start a session.
 
 
 
