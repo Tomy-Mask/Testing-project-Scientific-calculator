@@ -35,8 +35,7 @@ _______________________________________________________
 
 ### 1: Download and install Android Studio
 
-	Download Android Studio from:
- 	https://developer.android.com/studio
+Download Android Studio from: https://developer.android.com/studio
 
 In Control Panel change an environment variables:
 
@@ -81,8 +80,7 @@ or you can run emulator from Command Prompt:
 
 ### 4. Install Scientific Calculator application
 
-	Download the app with .apk extension from:
-	https://apkpure.com/scientific-calculator-free/com.scientificCalculator
+Download the app with .apk extension from: https://apkpure.com/scientific-calculator-free/com.scientificCalculator
 	
 
 ### 5. Control Panel - show devices
@@ -112,27 +110,21 @@ Open another Command Prompt and write:
 
 ### 8. Download and install JDK(Java Development Kit)
 	
-Download and install Java JDK(version 8 or newer) in Windows:
-
-	https://www.guru99.com/install-java.html
+Download and install Java JDK(version 8 or newer) in Windows: https://www.guru99.com/install-java.html
 
 
 ### 9. Download and install Node.js
 
-Download Node.js from: 
-
-	https://nodejs.org/en/download/
+Download Node.js from:  https://nodejs.org/en/download/
 	
 
 ### 10. Download and install Appium Desktop
 	
-Download Appium Desktop from:
+Download Appium Desktop from: http://appium.io/
 
-	http://appium.io/
+or
 
-	or
-
-	https://github.com/appium/appium-desktop
+https://github.com/appium/appium-desktop
 
 
 ### 11. Run Appium Desktop and configure ANDROID_HOME and JAVA_HOME
@@ -157,7 +149,7 @@ File > New Session Window
 
 In textbox JSON Represantation write desired capabilities
 
-e.g.
+	e.g.
 		{
 			"app":"E:\Calculator\Scientific_Calculator.apk",
 			"VERSION":"9,0",
