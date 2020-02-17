@@ -33,7 +33,7 @@ For regularly performance a couple of settings must be setted.
 
 _______________________________________________________
 
-###1: Download and install Android Studio
+### 1: Download and install Android Studio
 
 	Download Android Studio from:
  	https://developer.android.com/studio
@@ -62,7 +62,8 @@ In Windows open Command Prompt and type:
 			
 
 
-3. Run Android emulator from Android Studio
+### 3. Run Android emulator from Android Studio
+
 	Tools(Configure) > AVD Manager > Run   (I installed Pixel 3-API 28)
 	(for first installation run Create Virtual Device and choose a device)
 
@@ -76,13 +77,13 @@ In Windows open Command Prompt and type:
 	--->emulator -avd Pixel_3_Api_28
 
 
-4. Install Scientific Calculator application
+### 4. Install Scientific Calculator application
 
 	Download the app with .apk extension from:
 	https://apkpure.com/scientific-calculator-free/com.scientificCalculator
 	
 
-5. Control Panel - show devices
+### 5. Control Panel - show devices
 	
 Open another Command Prompt and write:
 	cd C:\Users\User\AppData\Local\Android\Sdk\platform-tools
@@ -94,31 +95,31 @@ Open another Command Prompt and write:
 
 
 
-6. Install app on emulator from Command Prompt
+### 6. Install app on emulator from Command Prompt
 
 	cd C:\Users\User\AppData\Local\Android\Sdk\platform-tools
 	-->adb -s emulator-5554 install D:\PATH_TO_APP\App_name.apk
 	
 
-7. Start server from Command Prompt
+### 7. Start server from Command Prompt
 
 	cd C:\Users\User\AppData\Local\Android\Sdk\platform-tools
 	--->adb start server
 
 
-8. Download and install JDK(Java Development Kit)
+### 8. Download and install JDK(Java Development Kit)
 	
 	Download and install Java JDK(version 8 or newer) in Windows:
 	https://www.guru99.com/install-java.html
 
 
-9. Download and install Node.js
+### 9. Download and install Node.js
 
 	Download Node.js from: 
 	https://nodejs.org/en/download/
 	
 
-10. Download and install Appium Desktop
+### 10. Download and install Appium Desktop
 	
 	Download Appium Desktop from:
 	http://appium.io/
@@ -128,7 +129,7 @@ Open another Command Prompt and write:
 	https://github.com/appium/appium-desktop
 
 
-11. Run Appium Desktop and configure ANDROID_HOME and JAVA_HOME
+### 11. Run Appium Desktop and configure ANDROID_HOME and JAVA_HOME
 	
 	ANDROID_HOME(example):  C:\Users\User\AppData\Local\Android\Sdk
 
@@ -136,13 +137,13 @@ Open another Command Prompt and write:
 	C:\Program Files\Java\jdk-13.0.2\bin
 
 
-12. Start server in Appium Desktop
+### 12. Start server in Appium Desktop
 	
 	Open Appium Desktop and start server with default options:
 		Host: 0.0.0.0         Port: 4723
 		
 
-13. Start new session in Appium Desktop
+### 13. Start new session in Appium Desktop
 
 	While the server is running open:
 	File > New Session Window
@@ -161,13 +162,13 @@ Open another Command Prompt and write:
 
 
 
-14. Download and install IntelliJ IDEA
+### 14. Download and install IntelliJ IDEA
 
  	Download IntelliJ IDEA from:
  	https://www.jetbrains.com/idea/download/#section=windows
 
 
-15. (additional)Add dependencies
+### 15. (additional)Add dependencies
 
  	For creating a new project it's needed to be a Maven project with an Appium and TestNG depencencies.
  	In pom.xml file copy a code for dependency from:
