@@ -41,12 +41,14 @@ Download Android Studio from: https://developer.android.com/studio
 
 In Control Panel change an environment variables:
 
-Control Panel > Sytem and Security > System > Advanced system settings > Environment Variables
+   Control Panel > Sytem and Security > System > Advanced system settings > Environment Variables
 
-User variables(example): 
-ANDROID_HOME = C:\Users\User\AppData\Local\Android\Sdk
+User variables(example):
+
+	ANDROID_HOME = C:\Users\User\AppData\Local\Android\Sdk
 
 System variables-PATH(examples):
+
 	C:\Users\User\AppData\Local\Android\Sdk\tools
 	C:\Users\User\AppData\Local\Android\Sdk\emulator
 
