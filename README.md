@@ -33,7 +33,7 @@ For regularly performance a couple of settings must be setted.
 
 _______________________________________________________
 
-1: Download and install Android Studio
+###1: Download and install Android Studio
 
 	Download Android Studio from:
  	https://developer.android.com/studio
@@ -49,7 +49,7 @@ System variables-PATH(examples):
 	C:\Users\User\AppData\Local\Android\Sdk\tools
 	C:\Users\User\AppData\Local\Android\Sdk\emulator
 
-2. Command Prompt - run daemon service
+### 2. Command Prompt - run daemon service
 
 In Windows open Command Prompt and type:
 	cd C:\Users\User\AppData\Local\Android\Sdk\platform-tools    
