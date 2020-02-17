@@ -21,9 +21,9 @@ Division: simple division test using scientific calculator app. Test divides a 1
 
 ValueOfPi: simple test using scientific calculator app which shows a value of π(pi).
 
-Steps are described in : #### android-scientific_calc-testng-test. 
+Steps are described in : android-scientific_calc-testng-test. 
 It can be downloaded and easily modified. All steps are explained.
-Example of this fully functional project: ### android-scientific_calc-testng-example
+Example of this fully functional project: android-scientific_calc-testng-example
 
 
 This project is written in Java and made in IntelliJ IDEA environment, driven by Maven tool with Appium and TestNG dependencies.
