@@ -171,9 +171,7 @@ e.g.
 
 ### 14. Download and install IntelliJ IDEA
 
- Download IntelliJ IDEA from:
- 
- 	https://www.jetbrains.com/idea/download/#section=windows
+ Download IntelliJ IDEA from: https://www.jetbrains.com/idea/download/#section=windows
 
 
 ### 15. (additional)Add dependencies
