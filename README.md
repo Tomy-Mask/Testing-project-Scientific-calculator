@@ -86,6 +86,7 @@ In Windows open Command Prompt and type:
 ### 5. Control Panel - show devices
 	
 Open another Command Prompt and write:
+
 	cd C:\Users\User\AppData\Local\Android\Sdk\platform-tools
 	-->adb devices
 
